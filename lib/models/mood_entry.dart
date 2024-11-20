@@ -65,11 +65,11 @@ class Fields {
 }
 
 enum Model {
-    MAIN_MOODENTRY
+    mainMoodEntry
 }
 
 final modelValues = EnumValues({
-    "main.moodentry": Model.MAIN_MOODENTRY
+    "main.moodentry": Model.mainMoodEntry
 });
 
 class EnumValues<T> {
