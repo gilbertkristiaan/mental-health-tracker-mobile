@@ -17,7 +17,7 @@ flutter doctor
 
 echo "Installed flutter to `pwd`/flutter"
 
-# export keystore for release
+## export keystore for release
 echo "$KEY_JKS" | base64 --decode > release-keystore.jks
 
 # build APK
